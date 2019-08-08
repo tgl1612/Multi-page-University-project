@@ -1,0 +1,392 @@
+
+/*BODY CSS*/
+body{
+  background-color: #d4d3e0!important;
+
+
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom:75px; /* this needs to be bigger than footer height*/
+}
+
+.nofind{
+  margin:auto;
+
+}
+
+.mymessages{
+  border: thin grey solid;
+    border-radius: 25px;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.mymessagesend{
+  margin-top: 1.5rem;
+}
+
+.nofind h3{
+  margin-top: 2rem;
+}
+
+/* CARousel css*/
+div.mycarousel{
+  height: 400px;
+}
+
+img.caro1{
+  height: 400px;
+
+}
+
+.mycarocontainer p{
+  font-size: 125%;
+}
+
+.loginbut{
+  background-color: #207ee4;
+  border-color:#207ee4;
+}
+.Myloginbut{
+  text-align: center;
+}
+
+
+.regwelc{
+  background-color: #343a40;
+  color: #207ee4;
+  padding:1rem;
+  text-align: center;
+      border-radius: 10px;
+}
+
+.regwelc1{
+  color: #343a40;
+  padding:1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+border-bottom: thin solid grey;
+}
+
+#username, #InputPass1, #email, #phonenumber, #education
+ {
+  border-color: #207ee4;
+}
+
+
+/*nav bar css*/
+
+nav.navbar.fixed-top{
+  padding:0;
+}
+
+div.navbar-collapse{
+  z-index: 100;
+  background-color: #343a40;
+}
+
+.navbar{
+  max-height: 75px;
+
+}
+
+a.join{
+  margin-right: 10px;
+    margin-left: 10px;
+}
+
+#mylogin{
+  color:#207ee4;
+}
+
+button.navbar-toggler{
+  margin-right: 1rem;
+}
+#myinputfield{
+  max-width: 80%;
+}
+
+
+
+div.mynav{
+  text-align: center;
+}
+
+a.logo{
+  padding-right: 2rem;
+  padding-left: 1rem;
+}
+
+div.mysearchinput{
+  justify-content: center;
+}
+
+
+.nav-link{
+  font-size: 125%;
+}
+
+
+#mylogo{
+  max-height: 60px;
+}
+
+
+
+.btn-outline-secondary:hover {
+    color: #343a40;
+    background-color: #207ee4;
+    border-color: #207ee4;
+}
+
+.btn-outline-secondary {
+    color: #207ee4;
+    border-color: #207ee4;
+}
+
+form.mysearchbar{
+padding-top:3px;
+
+}
+
+div.navdropdown{
+  background-color: #343a40;
+
+}
+
+a.dropdown-item{
+  color: #207ee4;
+}
+
+a.dropdown-item:hover{
+  background-color: #207ee4;
+  color: white;
+}
+
+
+div.row.searchbar{
+  background-color: #343a40!important;
+  max-height: 50px;
+}
+
+div.row.recentlyadded{
+  background-color: #343a40!important ;
+  color: white;
+
+
+}
+div.row.recentlyadded h2{
+
+  margin: auto;
+
+}
+
+/* card css*/
+p.card-text{
+  max-height: 3rem;
+  overflow: hidden;
+}
+
+img.card-img-top{
+  max-height: 10rem;
+}
+
+div.card.border-primary.mb-3{
+    max-width: 18rem;
+    margin:10px;
+      max-height: 25rem;
+
+}
+
+div.card-body{
+  overflow: hidden;
+}
+
+.cardbutton{
+
+      background-color: #207ee4;
+      color: white;
+
+}
+
+.card-header{
+  text-align: center;
+  background-color: #343a40;
+  color: #207ee4;
+}
+
+.card.border-primary{
+  border-color:#207ee4;
+}
+.card-body h5{
+  border-bottom: thin #207ee4 solid!important;
+
+}
+
+
+
+.mycards a{
+  text-decoration: none!important;
+  color: #343a40;
+}
+
+
+
+div.card-body{
+  height: 7.5rem;
+
+}
+
+.card-footer{
+  text-align:center;
+  background-color:  #343a40;
+  height:4rem;
+}
+
+
+
+
+
+div.myitems{
+  max-width: 90%;
+  margin-top: 2rem;
+}
+
+div.myitemrows{
+
+  margin:auto;
+  max-width: 960px;
+
+}
+
+.myiteminfo{
+  margin-top: 1rem;
+background-color: white;
+border-radius: 25px;
+padding-left: 0.5rem;
+color: #343a40;
+
+width:90%;
+
+padding: 2rem;
+}
+
+
+.largeimage{
+  height: 50%;
+}
+.smallimages{
+  display: inline;
+}
+
+img.image1{
+  height: 100%;
+  width: 85%;
+  max-height: 20rem;
+  max-width: 25rem;
+}
+
+img.userimage{
+    max-height: 20%;
+    max-width: 30%;
+    height: 5rem;
+    width: 10rem;
+}
+
+img.image2{
+height: 20%;
+
+width:20%;
+margin-left: 1rem;
+margin-top: .25rem;
+
+}
+img.image3{
+  height: 20%;
+
+  width:20%;
+margin-left: .5rem;
+margin-top: .25rem;
+
+}
+
+.mycardsuser{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.mycardsuser a{
+  text-decoration: none!important;
+  color: #343a40;
+
+}
+
+
+
+
+
+.itemname{
+  border-bottom: thin solid grey;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+div.userinfo{
+  margin-top:5rem;
+}
+
+.btn.contact{
+  margin-left: 2rem;
+}
+
+footer {
+  background-color:#343a40!important ;
+  color: #207ee4;
+  text-align: center;
+  height: 2.5rem;
+padding-top: .5rem;
+
+position: relative;
+  margin-top: -50px; /* negative value of footer height */
+  height: 50px;
+  clear:both;
+  padding-top:10px;
+}
+
+
+
+footer p{
+  margin-bottom: 0;
+  text-align: center;
+  display: inline;
+  float: left;
+  margin-left: 2rem;
+
+
+}
+
+footer a{
+float: right;
+margin-right: 2rem;
+margin-left: 1.5rem;
+  }
+
+.mycategoryitems{
+  padding-top:70px;
+  max-height: 100%;
+  margin-bottom: 20px;
+  /*padding-right:0;*/
+}
